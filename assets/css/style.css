@@ -8,10 +8,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* body {
-	background-color: rgb(98, 161, 216);
-	font-family: "Itim", cursive;
-} */
 body {
 	background-color: #3fb4ac;
 	font-family: "Itim", cursive;
@@ -41,16 +37,23 @@ body {
     color: #eae855;
 	padding: 15px;
 	text-decoration: none;
+    background-color: #13392a;
+}
+
+.menu a:hover {
+    background-color: #eae855;
+    color: #13392a;
 }
 
 .banner {
 	background-image: url(../img/gabo.jpg);
 	background-size: cover;
-	height: 550px;
+	height: 650px;
+    position: relative;
 }
 
+
 .banner h1 {
-    background-color: rgba(0,0,0,0.3);
     color: #eae855;
 	text-align: right;
 	font-size: 80px;
@@ -70,7 +73,7 @@ body {
 	background-color: #ff3b85;
 	border-radius: 50px;
 	height: 80px;
-	line-height: 45px;
+	line-height: 80px;
 	padding: 10px;
 	text-align: center;
 	width: 90px;
@@ -87,7 +90,7 @@ body {
 }
 
 .biografia {
-	background-color: #13392a;
+	background-color: rgba(19, 57, 42,0.5);
 	color: white;
 	padding: 20px 100px 70px 100px;
 	text-align: justify;
@@ -134,16 +137,29 @@ body {
 .banner-obra {
 	background-image: url(../img/gabo2.jpg);
 	background-size: cover;
-	height: 850px;
+	height: 650px;
 	position: relative;
+}
+.capa  {
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
 }
 
 .img-container {
 	position: absolute;
-	right: 300px;
-	bottom: 50px;
+	right: 50px;
+	bottom: 90px;
 }
 
+.img-container figcaption {
+   float: right;
+   width:300px;
+   height: 100%;
+   color: #eae855;
+   padding: 90px 20px 15px 20px;
+}
 
 .main-content {
     padding: 20px;
@@ -167,7 +183,6 @@ body {
 
 footer {
 	background-color: #13392a;
-    opacity: 0.8;
 	color: white;
 	font-size: 20px;
 	padding: 20px 100px;
